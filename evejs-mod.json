@@ -8,7 +8,7 @@
   "changelog": "",
   "conflicts": [],
   "delisted": false,
-  "description": "行星重建、批量启动、路线规划、十五分钟生产与容量增强。",
+  "description": "提供行星设施批量启动、采集器重建与运输路线规划，并提升行星生产效率、供能和发射平台容量。",
   "displayName": "行星工业增强",
   "downloadUrls": [
     {
@@ -21,12 +21,21 @@
     "0.12.9"
   ],
   "featured": false,
-  "highlights": [],
+  "highlights": [
+    "批量启动设施，按需求重建采集器，并规划工厂运输路线。",
+    "检查产量缺口，支持预览后应用调整。",
+    "指挥中心 CPU 与能量栅格提升至 100 倍。",
+    "提升资源丰度与生产能力，工厂和采集器采用 15 分钟生产批次。",
+    "发射平台容量提升至 1 亿立方米。",
+    "改善行星界面刷新、库存通知和多角色切换体验。"
+  ],
   "history": [],
   "id": "planetary-industry-enhancement",
   "publishedAt": "2026-10-16",
   "readme": [
-    "模组 ID：`planetary-industry-enhancement`，版本 `0.1.0`。迁移来源为 `F:\\EVE_0.1.29` 的最终行星工业实现；支持已核验的 EveJS 0.12.9 与启动器注入总线 API 1。"
+    "提供行星设施批量启动、采集器重建与运输路线规划，并提升行星生产效率、供能和发射平台容量。",
+    "启用后重启游戏服务端，并完全退出、重新启动客户端。首次使用前请备份存档；设施建造、升级费用及相关技能要求仍然有效。",
+    "停用不会自动还原已经转换的生产周期和运输路线。需要恢复原玩法时，应先停服并恢复配套备份，或完成相应的数据转换。"
   ],
   "repo": "https://github.com/MateralCMX/evejs-mod-planetary-industry-enhancement",
   "requiresRestart": true,
