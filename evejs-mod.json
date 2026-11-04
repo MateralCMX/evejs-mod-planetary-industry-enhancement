@@ -14,33 +14,33 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/MateralCMX/evejs-mod-planetary-industry-enhancement/releases/download/v0.1.0/planetary-industry-enhancement-0.1.0.zip"
+      "url": "https://github.com/MateralCMX/evejs-mod-planetary-industry-enhancement/releases/download/v0.1.3/planetary-industry-enhancement-0.1.3.zip"
     }
   ],
   "evejsVersions": [
-    "0.12.9"
+    "261028.1"
   ],
   "featured": false,
   "highlights": [
     "批量启动设施，按需求重建采集器，并规划工厂运输路线。",
     "检查产量缺口，支持预览后应用调整。",
     "指挥中心 CPU 与能量栅格提升至 100 倍。",
-    "提升资源丰度与生产能力，工厂和采集器采用 15 分钟生产批次。",
+    "提升资源丰度与生产能力，P2–P4 工厂采用 1 分钟批次，每批投入和产量保持不变；P1 工厂与采集器仍为 15 分钟。",
     "发射平台容量提升至 1 亿立方米。",
     "改善行星界面刷新、库存通知和多角色切换体验。"
   ],
   "history": [],
   "id": "planetary-industry-enhancement",
-  "publishedAt": "2026-10-16",
+  "publishedAt": "2026-11-04",
   "readme": [
-    "提供行星设施批量启动、采集器重建与运输路线规划，并提升行星生产效率、供能和发射平台容量。",
     "启用后重启游戏服务端，并完全退出、重新启动客户端。首次使用前请备份存档；设施建造、升级费用及相关技能要求仍然有效。",
+    "已采用批次制的 P2–P4 工厂会从上次结算时间按新周期计算尚未结算的生产；原有更早版本的在途批次仍按既有迁移规则结算。",
     "停用不会自动还原已经转换的生产周期和运输路线。需要恢复原玩法时，应先停服并恢复配套备份，或完成相应的数据转换。"
   ],
   "repo": "https://github.com/MateralCMX/evejs-mod-planetary-industry-enhancement",
   "requiresRestart": true,
-  "sha256": "a442e4158d9a7d67936ee749fe5b9663fab27ebc19921ad63a99f583fb1dcc47",
-  "sizeBytes": 123100,
+  "sha256": "97f02804466b21771eac1759a672d4eb3e1ad46f54a5cf859de3e2ce58f47607",
+  "sizeBytes": 137650,
   "tags": [],
-  "version": "0.1.0"
+  "version": "0.1.3"
 }
