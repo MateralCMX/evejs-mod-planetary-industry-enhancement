@@ -14,7 +14,7 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/MateralCMX/evejs-mod-planetary-industry-enhancement/releases/download/v0.1.3/planetary-industry-enhancement-0.1.3.zip"
+      "url": "https://github.com/MateralCMX/evejs-mod-planetary-industry-enhancement/releases/download/v0.1.6/planetary-industry-enhancement-0.1.6.zip"
     }
   ],
   "evejsVersions": [
@@ -26,12 +26,12 @@
     "检查产量缺口，支持预览后应用调整。",
     "指挥中心 CPU 与能量栅格提升至 100 倍。",
     "提升资源丰度与生产能力，P2–P4 工厂采用 1 分钟批次，每批投入和产量保持不变；P1 工厂与采集器仍为 15 分钟。",
-    "发射平台容量提升至 1 亿立方米。",
+    "发射平台容量提升至 1 亿立方米。默认海关和玩家建造的海关也为每个角色各提供 1 亿立方米，舰船存货和行星出口共用这份空间。",
     "改善行星界面刷新、库存通知和多角色切换体验。"
   ],
   "history": [],
   "id": "planetary-industry-enhancement",
-  "publishedAt": "2026-11-04",
+  "publishedAt": "2026-11-09",
   "readme": [
     "启用后重启游戏服务端，并完全退出、重新启动客户端。首次使用前请备份存档；设施建造、升级费用及相关技能要求仍然有效。",
     "已采用批次制的 P2–P4 工厂会从上次结算时间按新周期计算尚未结算的生产；原有更早版本的在途批次仍按既有迁移规则结算。",
@@ -39,8 +39,8 @@
   ],
   "repo": "https://github.com/MateralCMX/evejs-mod-planetary-industry-enhancement",
   "requiresRestart": true,
-  "sha256": "97f02804466b21771eac1759a672d4eb3e1ad46f54a5cf859de3e2ce58f47607",
-  "sizeBytes": 137650,
+  "sha256": "e4c8091c2d665ab4ae42e79fa391961353f8d1b2ced0004365d10ae401bf8c0c",
+  "sizeBytes": 177993,
   "tags": [],
-  "version": "0.1.3"
+  "version": "0.1.6"
 }
